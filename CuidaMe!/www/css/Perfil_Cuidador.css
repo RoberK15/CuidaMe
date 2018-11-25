@@ -1,0 +1,101 @@
+main {
+    background: #88b049;
+    position: fixed;
+    top: 3em;
+    bottom: 3em;
+    margin: 0;
+}
+
+main center {
+	margin-top: 2em;
+}
+    main a {
+        color: #88b049;
+        text-decoration: none;
+        background: white;
+        width: 10em;
+        text-align: center;
+        font-size: 1.25em;
+        border: 1px solid white;
+        border-radius: 1em;
+        background: white;
+        padding: 0.3em
+    }
+
+main p {
+	color: white;
+}
+
+main > p {
+    margin-left: 1.6em;
+    margin-top: auto;
+    text-decoration: underline;
+}
+
+main > div > div {
+    margin: auto;
+}
+
+#contacto {
+    display: flex;
+    justify-content: space-around;
+    margin: .2em;
+    margin-top: .5em;
+    margin-left: .5em;
+}
+
+#valoracion {
+    margin-left: 1.6em;
+    display: flex;
+	color: yellow;
+}
+
+#mishuevos {
+    margin-left: 1em;
+    display: flex;
+}
+
+main span {
+    font-size: 1em;
+    margin: auto 0;
+}
+
+#certificado {
+    color: #f3de06;
+    font-size: 1.7em;
+}
+
+#animals {
+    margin-left: 1em;
+}
+
+img {
+    width: 37%;
+    height: 37%;
+    margin: auto;
+    border-radius: 1em;
+}
+
+#pregunta {
+	margin: .5em;
+	font-size: 2em;
+}
+
+#respuesta {
+	margin-top: 0;
+	font-size: 1.25em;
+}
+
+#botones {
+	margin-top: 85%;
+}
+
+#dejar {
+	background: #88b049;
+	color: white;
+}
+
+#cuidar {
+	color: #88b049;
+	border: 1px solid #88b049;
+}

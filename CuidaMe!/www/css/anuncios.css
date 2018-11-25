@@ -1,0 +1,93 @@
+﻿main img {
+	margin: auto .5em;
+	height: 100px;
+	width: 100px;
+	border-radius: 1em;
+}
+
+main {
+	top: 3em;
+	bottom: 3em;
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.fila {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.columna {
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+	padding: .5em;
+}
+
+article h2 {
+	font-size: 0.9em;
+}
+
+article h2, article p {
+	margin: .5em;
+	text-align: center;
+}
+
+	article p {
+		font-size: 0.9em;
+	}
+
+.bueno {
+	color: green;
+}
+
+.regular {
+	color: darkorange;
+}
+
+.izquierda {
+	float: left;
+}
+
+.derecha {
+	float: right;
+}
+
+article.fila {
+	justify-content: unset;
+}
+
+article > div.columna {
+	width: 100%;
+}
+
+main article {
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 91%;
+	border-radius: 1.5em;
+	background: white;
+}
+
+main {
+	margin: 0;
+	padding: 1em 0;
+	background: #88b049;
+}
+
+	main a {
+		text-decoration: none;
+		color: black;
+	}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	color: white;
+}

@@ -1,0 +1,61 @@
+﻿body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header, footer {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 3em;
+}
+
+header {
+	top: 0px;
+	border-bottom: 1px solid black;
+}
+
+main {
+	margin: 3em 0;
+}
+
+footer {
+	bottom: 0px;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid black;
+}
+
+	footer span {
+		font-size: 1.5em;
+		margin: auto 0;
+	}
+
+	footer a {
+		color: black;
+		margin: auto 0;
+	}
+
+header > div {
+	float: left;
+	display: flex;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+header img {
+	width: 30%;
+	height: 30%;
+}
+
+header > label {
+	font-size: 1.5em;
+	margin: .33em;
+}
+
+header > span {
+	float: right;
+	font-size: 1.5em;
+	margin: .33em;
+}

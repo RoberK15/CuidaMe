@@ -1,0 +1,48 @@
+﻿main {
+	padding: 3em 0;
+	margin: 0;
+	background: #88b049;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 1em;
+}
+
+.fila {
+	display: flex;
+	justify-content: space-around;
+}
+
+#confirmar {
+	display: none;
+	background: white;
+	color: #88b049;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+	#confirmar p {
+		margin: 0;
+	}
+
+.fila > p, .fila a {
+	margin-top: 1.25em;
+	color: white;
+	width: 40%;
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px solid black;
+	border-radius: .75em;
+}
+
+#cancelar {
+	background: #d33;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+	#cancelar p {
+		margin: 0;
+	}
